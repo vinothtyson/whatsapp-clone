@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings | WhatsApp Clone</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body class="slide-in-right">
+
+  <div class="settings-container">
+    <!-- Sidebar -->
+    <aside class="settings-sidebar">
+      <div class="settings-header">
+        <h2>Settings</h2>
+      </div>
+      <ul class="settings-menu">
+        <li class="active">⚙️ General</li>
+        <li>👤 Account</li>
+        <li>💬 Chats</li>
+        <li>🎥 Video & Voice</li>
+        <li>🔔 Notifications</li>
+        <li>🎨 Personalization</li>
+        <li>📦 Storage</li>
+        <li>⌨️ Shortcuts</li>
+        <li>❓ Help</li>
+        <li>🧍 Profile</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <section class="settings-main">
+      <h2>General</h2>
+
+      <div class="setting-section">
+        <h3>Login</h3>
+        <div class="setting-item">
+          <label>Start WhatsApp at login</label>
+          <div class="toggle">
+            <input type="checkbox" id="loginToggle">
+            <label for="loginToggle"></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-section">
+        <h3>Language</h3>
+        <div class="setting-item">
+          <label>System default</label>
+          <select>
+            <option>System default</option>
+            <option>English</option>
+            <option>தமிழ் (Tamil)</option>
+            <option>हिन्दी (Hindi)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="setting-section">
+        <h3>Typing</h3>
+        <p class="small">
+          Change typing settings for autocorrect and misspelled highlight from 
+          <a href="#">Windows Settings</a>.
+        </p>
+
+        <div class="setting-item">
+          <label>Replace text with emoji</label>
+          <div class="toggle">
+            <input type="checkbox" id="emojiToggle" checked>
+            <label for="emojiToggle"></label>
+          </div>
+        </div>
+        <p class="small"><a href="#">See list of text</a></p>
+      </div>
+
+      <hr>
+
+      <p class="logout-text">
+        To log out of WhatsApp on this computer go to your <a href="#">Profile</a>.
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
